@@ -12,6 +12,17 @@ offline.
 - 🛟 [Support & FAQ](SUPPORT.md)
 - 📜 [Terms of Use](TERMS.md)
 
+## Repository layout
+
+- `*.md` — the public documents above (source of truth).
+- `site/` — the marketing website deployed to https://peltriaux.com/clinknthink
+  (`index.html`, `privacy.html`, `support.html`, `assets/`). Deploy with:
+  `rsync -az site/ pascal@10.254.254.2:/var/www/peltriaux/clinknthink/`
+- `screenshots/raw/{iphone,ipad}/` — unframed App Store captures
+  (iPhone 6.9" 1320×2868, iPad 13" 2064×2752).
+- `screenshots/marketing/{iphone,ipad}/` — the same captures with marketing
+  headlines + device frames (what's shown on the site and uploaded to App Store Connect).
+
 ## App Store links
 
 - **Privacy Policy URL:** https://peltriaux.com/clinknthink/privacy.html
