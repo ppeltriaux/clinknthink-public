@@ -27,6 +27,14 @@ offline.
 
 - **Privacy Policy URL:** https://peltriaux.com/clinknthink/privacy.html
 - **Support URL:** https://peltriaux.com/clinknthink/support.html
+- **Localized Privacy URLs** (optional per-locale overrides):
+  - 🇫🇷 https://peltriaux.com/clinknthink/privacy-fr.html
+  - 🇪🇸 https://peltriaux.com/clinknthink/privacy-es.html
+  - 🇧🇷 https://peltriaux.com/clinknthink/privacy-pt.html
+  - 🇮🇹 https://peltriaux.com/clinknthink/privacy-it.html
+  - 🇩🇪 https://peltriaux.com/clinknthink/privacy-de.html
+- **App icon + IAP images:** see `appstore/` (`app-icon-1024.png`, `iap-promo-1024.png`,
+  `iap-review-screenshot.png`).
 
 ## Contact
 
