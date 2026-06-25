@@ -111,6 +111,12 @@
       .shothint { display:none; }
     }
 
+    /* Video */
+    .video-wrap { max-width:320px; margin:0 auto; aspect-ratio:9 / 16; border-radius:22px; overflow:hidden; box-shadow:var(--shadow); background:#000; }
+    .video-wrap iframe { width:100%; height:100%; border:0; display:block; }
+    .watch-link { text-align:center; margin-top:.8rem; }
+    .watch-link a { font-weight:700; text-decoration:none; }
+
     footer { border-top:1px solid var(--rule); margin-top:2rem; padding:2rem 1.25rem 3rem; text-align:center; color:var(--ink-mute); font-size:.9rem; }
     footer a { color:var(--ink-soft); text-decoration:none; margin:0 .5rem; font-weight:600; }
     footer a:hover { color:var(--teal-deep); }
@@ -123,6 +129,7 @@
     <nav class="nav">
       <a href="#features">Features</a>
       <a href="#modes">Modes</a>
+      <a href="#video">Video</a>
       <a href="#screens">Screens</a>
       <a href="#price">Pricing</a>
       <a href="support.html">Support</a>
@@ -179,6 +186,17 @@
         <div class="mode"><span class="paid">Full</span><b>Mix</b><small>Combine colours to match.</small></div>
         <div class="mode"><span class="paid">Full</span><b>Decorate</b><small>Build a sticker Playroom.</small></div>
       </div>
+    </section>
+
+    <section id="video">
+      <h2>See it in action</h2>
+      <p class="lede">A 30-second peek at the marbles, modes and Adventure — set to the in-app music.</p>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/JaWDP1InPn8" title="Clink &amp; Think — gameplay preview"
+          loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <p class="watch-link"><a href="https://youtube.com/shorts/JaWDP1InPn8">Watch on YouTube ↗</a></p>
     </section>
 
     <section id="screens">
