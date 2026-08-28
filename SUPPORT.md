@@ -13,6 +13,12 @@ counting and colours along the way. No ads, no tracking, works offline.
 
 ## Frequently asked questions
 
+### How do you play?
+Drag a marble from the tray into a glass tube; tap a tube to pour it out. That's
+it — every mode is built on those two moves. There's a step-by-step guide to all
+nine modes, the difficulties and the grown-up settings in
+[How to Play](HOW-TO-PLAY.md).
+
 ### Is it free?
 Yes — Clink & Think is free to download and play. Free Play, the Learn mode, the
 Pattern mode, and the first Adventure world (the Playroom) are all free. A single

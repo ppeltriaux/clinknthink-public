@@ -67,6 +67,12 @@
            padding:.85rem 1.5rem; border-radius:999px; text-decoration:none; box-shadow:0 10px 22px rgba(47,138,118,.34); margin-top:1rem; }
     .cta:hover { background:var(--teal-deep); }
     .badgeline { margin-top:.9rem; color:var(--ink-mute); font-size:.92rem; }
+    .howchips { display:flex; flex-wrap:wrap; gap:.5rem; justify-content:center; margin-top:1.1rem; }
+    .howchip { display:inline-flex; align-items:center; gap:.4rem; background:var(--paper); border:1px solid var(--rule);
+               border-radius:999px; padding:.45rem 1rem; font-size:.9rem; font-weight:700; color:var(--teal-deep);
+               text-decoration:none; box-shadow:0 4px 10px rgba(31,94,80,.06);
+               transition:transform .12s ease, box-shadow .12s ease, background .12s ease; }
+    .howchip:hover { background:#eafaf2; transform:translateY(-2px); box-shadow:0 8px 16px rgba(31,94,80,.12); }
 
     /* Trust band */
     .trust { display:flex; gap:1.4rem; justify-content:center; flex-wrap:wrap; margin:2.2rem auto; padding:1rem 1.25rem;
@@ -86,7 +92,12 @@
     .card p { color:var(--ink-soft); font-size:.95rem; }
 
     .modes { display:grid; grid-template-columns:repeat(auto-fit, minmax(160px,1fr)); gap:.7rem; }
-    .mode { background:var(--paper); border:1px solid var(--rule); border-radius:14px; padding:.9rem 1rem; }
+    .mode { display:block; background:var(--paper); border:1px solid var(--rule); border-radius:14px; padding:.9rem 1rem;
+            text-decoration:none; color:inherit; transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease; }
+    .mode:hover { transform:translateY(-3px); border-color:rgba(31,94,80,.28); box-shadow:0 10px 20px rgba(31,94,80,.12); }
+    .mode::after { content:"How to play →"; display:block; margin-top:.35rem; font-size:.72rem; font-weight:800;
+                   color:var(--teal); opacity:.55; transition:opacity .12s ease; }
+    .mode:hover::after, .mode:focus-visible::after { opacity:1; }
     .mode b { color:var(--teal-deep); display:block; }
     .mode small { color:var(--ink-mute); }
     .mode .free { color:var(--green); font-weight:800; font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; }
@@ -129,6 +140,7 @@
     <nav class="nav">
       <a href="#features">Features</a>
       <a href="#modes">Modes</a>
+      <a href="how-to-play.html">How to play</a>
       <a href="#video">Video</a>
       <a href="#screens">Screens</a>
       <a href="#price">Pricing</a>
@@ -149,6 +161,11 @@
       </div>
       <a class="cta" href="https://apps.apple.com/app/id6779411695">Download on the App Store →</a>
       <p class="badgeline">iPhone &amp; iPad · iOS 17+ · Free to play, one-time Full Unlock</p>
+      <div class="howchips">
+        <a class="howchip" href="how-to-play.html">📖 How to play</a>
+        <a class="howchip" href="how-to-play.html#basics">👇 The three moves</a>
+        <a class="howchip" href="how-to-play.html#grownups">👨‍👩‍👧 For grown-ups</a>
+      </div>
     </section>
 
     <div class="trust">
@@ -174,17 +191,18 @@
 
     <section id="modes">
       <h2>Nine ways to play</h2>
-      <p class="lede">Gentle modes that grow with your child — from a no-rules sandbox to colour-mixing science.</p>
+      <p class="lede">Gentle modes that grow with your child — from a no-rules sandbox to colour-mixing science.
+        Tap any mode for a step-by-step <a href="how-to-play.html">how to play</a>.</p>
       <div class="modes">
-        <div class="mode"><span class="free">Free</span><b>Free Play</b><small>Fill &amp; pour, no rules.</small></div>
-        <div class="mode"><span class="free">Free</span><b>Learn</b><small>Count &amp; name colours.</small></div>
-        <div class="mode"><span class="free">Free</span><b>Pattern</b><small>Spot &amp; continue patterns.</small></div>
-        <div class="mode"><span class="free">Free</span><b>Adventure</b><small>World 1, the Playroom.</small></div>
-        <div class="mode"><span class="paid">Full</span><b>Challenge</b><small>Copy the recipe card.</small></div>
-        <div class="mode"><span class="paid">Full</span><b>Sort</b><small>One colour per tube.</small></div>
-        <div class="mode"><span class="paid">Full</span><b>Memory</b><small>Peek, then rebuild.</small></div>
-        <div class="mode"><span class="paid">Full</span><b>Mix</b><small>Combine colours to match.</small></div>
-        <div class="mode"><span class="paid">Full</span><b>Decorate</b><small>Build a sticker Playroom.</small></div>
+        <a class="mode" href="how-to-play.html#free-play"><span class="free">Free</span><b>Free Play</b><small>Fill &amp; pour, no rules.</small></a>
+        <a class="mode" href="how-to-play.html#learn"><span class="free">Free</span><b>Learn</b><small>Count &amp; name colours.</small></a>
+        <a class="mode" href="how-to-play.html#pattern"><span class="free">Free</span><b>Pattern</b><small>Spot &amp; continue patterns.</small></a>
+        <a class="mode" href="how-to-play.html#adventure"><span class="free">Free</span><b>Adventure</b><small>World 1, the Playroom.</small></a>
+        <a class="mode" href="how-to-play.html#challenge"><span class="paid">Full</span><b>Challenge</b><small>Copy the recipe card.</small></a>
+        <a class="mode" href="how-to-play.html#sort"><span class="paid">Full</span><b>Sort</b><small>One colour per tube.</small></a>
+        <a class="mode" href="how-to-play.html#memory"><span class="paid">Full</span><b>Memory</b><small>Peek, then rebuild.</small></a>
+        <a class="mode" href="how-to-play.html#mix"><span class="paid">Full</span><b>Mix</b><small>Combine colours to match.</small></a>
+        <a class="mode" href="how-to-play.html#decorate"><span class="paid">Full</span><b>Decorate</b><small>Build a sticker Playroom.</small></a>
       </div>
     </section>
 
@@ -231,6 +249,7 @@
   </main>
 
   <footer>
+    <a href="how-to-play.html">How to play</a> ·
     <a href="privacy.html">Privacy Policy</a> ·
     <a href="support.html">Support</a> ·
     <a href="https://github.com/ppeltriaux/clinknthink-public">Docs</a> ·
