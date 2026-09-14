@@ -12,6 +12,7 @@ offline.
 - 📄 [Privacy Policy](PRIVACY.md)
 - 🛟 [Support & FAQ](SUPPORT.md)
 - 📜 [Terms of Use](TERMS.md)
+- ⭐ [App Store Reviews & Replies](REVIEWS.md)
 
 ## Repository layout
 
