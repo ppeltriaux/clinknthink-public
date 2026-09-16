@@ -49,9 +49,19 @@ In **Settings → Reset progress**. This clears local progress and the iCloud co
 (stars, stickers, earned themes, and your decorated Playroom).
 
 ### What languages does the voice support?
-The spoken numbers, colours, and encouragement are available in **English,
-French, Spanish, Portuguese (Brazil), Italian, and German**. By default the app
-follows your device language; you can also pick one in Settings.
+The spoken numbers, colours, encouragement, and the Memory-mode guidance are
+available in **English, French, Spanish, Portuguese (Brazil), Italian, and
+German**. By default the app follows your device language; you can also pick one
+in Settings.
+
+### What does the voice say in Memory mode?
+Memory is the one mode where the card hides itself, so the voice talks your child
+through the whole turn: *"Look and remember!"* while the card shows, *"Now build
+it!"* as the cover closes, *"Quick look!"* on a peek, a gentle *"Not quite! Take
+another look."* if every tube is full but the build doesn't match, and *"You
+remembered!"* when it does. A child who can't read yet always knows what the game
+is waiting for. Turn the voice off in **Settings → Sound & voice** if you'd rather
+play quietly.
 
 ### Is my child's data safe?
 Yes. The app collects **no personal data** of any kind. See the
