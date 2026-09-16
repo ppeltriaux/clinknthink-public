@@ -98,11 +98,18 @@ the one mode where marbles move *between* tubes.
 ### 🧠 Memory — *Full Unlock*
 Challenge, but the card hides itself. Look, remember, then build it blind.
 
-1. The card is shown for a moment, then a cover slides over it.
+1. The card is shown for a moment — the voice says *"Look and remember!"* — then a
+   cover slides over it and it says *"Now build it!"*
 2. Build what you remember with the marbles.
-3. Forgotten it? **Tap the covered card** for a two-second peek. Peek as often as you
-   like — there's no penalty and nothing is counted.
-4. Match the hidden card and the celebration arrives.
+3. Forgotten it? **Tap the covered card** for a two-second peek (*"Quick look!"*). Peek
+   as often as you like — there's no penalty and nothing is counted.
+4. Filled every tube but it doesn't match? A gentle *"Not quite! Take another look."*
+   — said once, never nagging. Tap a tube to pour it out and try again.
+5. Match the hidden card and you hear *"You remembered!"* with the celebration.
+
+Because the card disappears, Memory is the one mode where a child who can't read yet
+needs telling what the game is waiting for — so the voice narrates the whole turn, in
+whichever of the six languages you picked.
 
 ### 🧪 Color-Mix — *Full Unlock*
 A beaker and a target colour. Work out which colours make it — real subtractive
@@ -154,8 +161,9 @@ The things a child never has to think about — all behind a parental gate.
   earned, and a "This week" summary of minutes per day and which skills got practised.
 - **Daily treat** — a sticker and a gentle streak for coming back — never punishing,
   never nagging, and missing a day costs nothing.
-- **Sound & voice** — toggle the sound effects and the spoken colour names separately,
-  and pick the app's language, in Settings.
+- **Sound & voice** — toggle the sound effects and the spoken voice separately, and
+  pick the app's language, in Settings. The voice names colours, counts aloud in Learn
+  and narrates Memory, in six languages.
 - **Across devices** — progress, stickers and earned themes sync over iCloud between
   your child's own iPhone and iPad. No account, no sign-up, no data collected.
 
