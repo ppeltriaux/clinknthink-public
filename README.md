@@ -20,6 +20,10 @@ offline.
 - `site/` — the marketing website deployed to https://peltriaux.com/clinknthink
   (`index.html`, `how-to-play.html`, `privacy.html`, `support.html`, `assets/`). Deploy with:
   `rsync -az site/ pascal@10.254.254.2:/var/www/peltriaux/clinknthink/`
+  **No `sudo`, and no `chown` afterwards** — the web root is owned by `pascal`, and the
+  files only need to stay world-readable for nginx. Adding `--rsync-path="sudo rsync"`
+  just fails with `sudo: a terminal is required to read the password`. Dry-run first with
+  `-n --itemize-changes` to see exactly which pages will change.
 - `screenshots/raw/{iphone,ipad}/` — unframed App Store captures
   (iPhone 6.9" 1320×2868, iPad 13" 2064×2752).
 - `screenshots/marketing/{iphone,ipad}/` — the same captures with marketing
