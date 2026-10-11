@@ -164,6 +164,11 @@ The things a child never has to think about — all behind a parental gate.
 - **Sound & voice** — toggle the sound effects and the spoken voice separately, and
   pick the app's language, in Settings. The voice names colours, counts aloud in Learn
   and narrates Memory, in six languages.
+- **iPhone Duo** — half-fold the Duo like a little table and every screen splits: what
+  to look at (the recipe card, the colour to make, the question) stands up, and
+  everything to touch (tubes, tray, keypad, buttons) lies flat, so a marble is never
+  dragged across the fold. Pop-ups appear on the flat half too. Fully open it uses the
+  whole screen; closed, it fills the outer display.
 - **Across devices** — progress, stickers and earned themes sync over iCloud between
   your child's own iPhone and iPad. No account, no sign-up, no data collected.
 

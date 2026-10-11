@@ -1,7 +1,7 @@
 # Clink & Think — Public Docs
 
 Public documentation for **Clink & Think**, a gentle marble-and-tubes puzzle game
-for young children (ages ~4–6) on iPhone & iPad. No ads, no tracking, works
+for young children (ages ~4–6) on iPhone, iPad & iPhone Duo. No ads, no tracking, works
 offline.
 
 🌐 **Website:** https://peltriaux.com/clinknthink
@@ -24,9 +24,10 @@ offline.
   files only need to stay world-readable for nginx. Adding `--rsync-path="sudo rsync"`
   just fails with `sudo: a terminal is required to read the password`. Dry-run first with
   `-n --itemize-changes` to see exactly which pages will change.
-- `screenshots/raw/{iphone,ipad}/` — unframed App Store captures
-  (iPhone 6.9" 1320×2868, iPad 13" 2064×2752).
-- `screenshots/marketing/{iphone,ipad}/` — the same captures with marketing
+- `screenshots/raw/{iphone,ipad,duo}/` — unframed App Store captures
+  (iPhone 6.9" 1320×2868, iPad 13" 2064×2752, iPhone Duo inner display 2007×2853,
+  half-folded).
+- `screenshots/marketing/{iphone,ipad,duo}/` — the same captures with marketing
   headlines + device frames (what's shown on the site and uploaded to App Store Connect).
 
 ## App Store links

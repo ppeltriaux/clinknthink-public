@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#2f8a76" />
   <title>Clink &amp; Think — a gentle marble puzzle for little thinkers</title>
-  <meta name="description" content="Clink & Think is a cosy marble-and-tubes puzzle game for ages 4–6 on iPhone & iPad. Count, sort, match, mix and pattern with glossy marbles. No ads, no tracking, works offline." />
+  <meta name="description" content="Clink & Think is a cosy marble-and-tubes puzzle game for ages 4–6 on iPhone, iPad & iPhone Duo. Count, sort, match, mix and pattern with glossy marbles. No ads, no tracking, works offline." />
   <meta property="og:title" content="Clink & Think" />
-  <meta property="og:description" content="A gentle marble puzzle for little thinkers. Ages 4–6 · iPhone & iPad · no ads, no tracking." />
+  <meta property="og:description" content="A gentle marble puzzle for little thinkers. Ages 4–6 · iPhone, iPad & iPhone Duo · no ads, no tracking." />
   <meta property="og:image" content="https://peltriaux.com/clinknthink/assets/icon.png" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://peltriaux.com/clinknthink/" />
@@ -110,6 +110,8 @@
     .price li { padding:.35rem 0 .35rem 1.7rem; position:relative; color:var(--ink-soft); }
     .price li::before { content:"✓"; position:absolute; left:0; color:var(--green); font-weight:900; }
 
+    .duo-video { display:block; width:min(70vw, 280px); margin:0 auto 1.4rem; border-radius:24px; box-shadow:0 14px 30px rgba(31,94,80,.14); background:#e9f6ef; }
+    #duo .grid { margin-top:1.2rem; }
     .shots { display:flex; gap:1rem; overflow-x:auto; padding:.5rem .25rem 1.2rem; scroll-snap-type:x proximity; scroll-padding:1.25rem; -webkit-overflow-scrolling:touch; }
     .shots img { width:min(72vw, 260px); flex:0 0 auto; scroll-snap-align:center; border-radius:22px; box-shadow:0 14px 30px rgba(31,94,80,.14); }
     .shots::-webkit-scrollbar { height:8px; }
@@ -139,6 +141,7 @@
     <div class="brand"><img src="assets/icon.png" alt="" /> Clink &amp; Think</div>
     <nav class="nav">
       <a href="#features">Features</a>
+      <a href="#duo">iPhone Duo</a>
       <a href="#modes">Modes</a>
       <a href="how-to-play.html">How to play</a>
       <a href="#video">Video</a>
@@ -160,7 +163,7 @@
         <img src="assets/marble-blue.png" alt="" /><img src="assets/marble-purple.png" alt="" />
       </div>
       <a class="cta" href="https://apps.apple.com/app/id6779411695">Download on the App Store →</a>
-      <p class="badgeline">iPhone &amp; iPad · iOS 17+ · Free to play, one-time Full Unlock</p>
+      <p class="badgeline">iPhone, iPad &amp; iPhone Duo · iOS 17+ · Free to play, one-time Full Unlock</p>
       <div class="howchips">
         <a class="howchip" href="how-to-play.html">📖 How to play</a>
         <a class="howchip" href="how-to-play.html#basics">👇 The three moves</a>
@@ -181,11 +184,37 @@
       <p class="lede">Clink &amp; Think turns early-learning into cosy, tactile play — no reading required, nothing scary, nothing to rush.</p>
       <div class="grid">
         <div class="card"><div class="ic">🔢</div><h3>Counting &amp; colours</h3><p>A free Learn mode teaches numbers, colours, and left/middle/right with a friendly spoken voice.</p></div>
-        <div class="card"><div class="ic">🗣️</div><h3>Six languages</h3><p>Spoken prompts in English, French, Spanish, Portuguese, Italian and German — follows your device or pick one.</p></div>
+        <div class="card"><div class="ic">🗣️</div><h3>A voice that guides</h3><p>A friendly voice talks children through Learn, Pattern and Memory, in English, French, Spanish, Portuguese, Italian or German — follows your device or pick one.</p></div>
         <div class="card"><div class="ic">🗺️</div><h3>An Adventure to grow into</h3><p>A friendly level map of worlds — clear a world to earn its marble theme (fruit, animals, dinosaurs, space…).</p></div>
         <div class="card"><div class="ic">🎨</div><h3>Make it theirs</h3><p>Earn stickers, decorate a Playroom, and collect glossy marble themes as they play.</p></div>
+        <div class="card"><div class="ic">⏳</div><h3>Gentle play-time limits</h3><p>Set a daily limit in Settings. When time is up, a calm wind-down says goodbye — never mid-puzzle — and a weekly summary shows grown-ups what was practised.</p></div>
         <div class="card"><div class="ic">☁️</div><h3>iCloud sync</h3><p>Progress follows the child across their own iPhone and iPad automatically.</p></div>
         <div class="card"><div class="ic">🔒</div><h3>Private by design</h3><p>No accounts, no ads, no analytics, no data collection. It simply works offline.</p></div>
+      </div>
+    </section>
+
+    <section id="duo">
+      <h2>Made for iPhone Duo</h2>
+      <p class="lede">Half-fold an iPhone Duo and Clink &amp; Think splits in two, like a little play table: the goal
+        stands up where your child can see it, and the tubes, tray and buttons lie flat under their hands — so every
+        marble is dragged on one side of the fold, never across it. New in version 1.4.</p>
+      <video class="duo-video" src="assets/duo-preview.mp4" poster="assets/duo-preview-poster.jpg"
+        autoplay muted loop playsinline preload="metadata"
+        aria-label="Clink &amp; Think half-folded on iPhone Duo: each game mode with its goal on the upright half and the board on the flat half"></video>
+      <div class="shots">
+        <img src="assets/duo-challenge.jpg" alt="Challenge half-folded: the recipe card stands up, the tubes and marble tray lie flat" loading="lazy" />
+        <img src="assets/duo-home.jpg" alt="Home half-folded: the logo stands up, the marbles, difficulty and modes lie flat" loading="lazy" />
+        <img src="assets/duo-pattern.jpg" alt="Pattern half-folded: the mascot asks what comes next, the bead string and tray lie flat" loading="lazy" />
+        <img src="assets/duo-learn.jpg" alt="Learn half-folded: the number to count stands up, the tube and colours lie flat" loading="lazy" />
+        <img src="assets/duo-map.jpg" alt="Adventure half-folded: the current world stands up, the level map lies flat" loading="lazy" />
+        <img src="assets/duo-mix.jpg" alt="Mix half-folded: the colour to make stands up, the beaker and tray lie flat" loading="lazy" />
+        <img src="assets/duo-book.jpg" alt="Sticker Book half-folded: the collection count stands up, the stickers lie flat" loading="lazy" />
+      </div>
+      <p class="shothint">← swipe to explore →</p>
+      <div class="grid">
+        <div class="card"><div class="ic">🧩</div><h3>Every screen splits</h3><p>All seven game modes, Home, the Adventure map, the Sticker Book and Playroom, and the grown-up screens — the parental gate's keypad lies flat, its question stands up.</p></div>
+        <div class="card"><div class="ic">✋</div><h3>Touch stays flat</h3><p>Pop-ups like “You did it!” appear on the flat half, right under little fingers, never across the hinge.</p></div>
+        <div class="card"><div class="ic">📱</div><h3>Open or closed</h3><p>Fully open, the game uses the whole big screen. Closed, the menu fills the outer display, clear of the camera.</p></div>
       </div>
     </section>
 

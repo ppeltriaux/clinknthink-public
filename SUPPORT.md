@@ -63,6 +63,13 @@ remembered!"* when it does. A child who can't read yet always knows what the gam
 is waiting for. Turn the voice off in **Settings → Sound & voice** if you'd rather
 play quietly.
 
+### Does it work on iPhone Duo?
+Yes, from version 1.4. Half-fold the Duo like a little table and Clink & Think splits
+in two: the goal stands up on the top half and everything your child touches — tubes,
+tray, keypad, buttons — lies flat on the bottom half, so marbles are never dragged
+across the fold. Fully open it uses the whole screen; closed, the menu fills the outer
+display. Nothing to switch on.
+
 ### Is my child's data safe?
 Yes. The app collects **no personal data** of any kind. See the
 [Privacy Policy](PRIVACY.md).
